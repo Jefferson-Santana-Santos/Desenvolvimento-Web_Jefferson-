@@ -4,6 +4,7 @@ Este é um site simples feito para a **ONG Esperança**, mostrando informações
 
 
 ## 📂 Estrutura de pastas
+<pre>
 ├── 📁 assets
 │   ├── 📁 css
 │   │   └──  style.css
@@ -19,6 +20,11 @@ Este é um site simples feito para a **ONG Esperança**, mostrando informações
 ├──  cadastro.html
 ├──  index.html
 └──  projetos.html
+</pre>
+
+## Validação W3C Validator
+
+![W3C Validator](https://github.com/user-attachments/assets/8c525859-aec8-449d-9465-bf4efe13506d)
 
 
 ##  Funcionalidades
