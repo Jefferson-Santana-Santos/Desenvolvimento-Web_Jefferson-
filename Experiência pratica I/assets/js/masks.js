@@ -19,7 +19,7 @@
   }
 
   function maskPhone(value) {
-    // Formato (11) 90000-0000 ou (11) 0000-0000
+
     const v = onlyDigits(value).slice(0, 11);
     const ddd = v.substring(0, 2);
     const isMobile = v.length >= 11;
@@ -41,7 +41,7 @@
       e.target.value = maskCPF(e.target.value);
     });
     cpf.addEventListener('blur', () => {
-      // Validação simples de comprimento (sem dígito verificador completo)
+      
       const digits = onlyDigits(cpf.value);
       cpf.setCustomValidity(digits.length === 11 ? '' : 'CPF deve ter 11 dígitos.');
     });
@@ -71,10 +71,11 @@
     form.addEventListener('submit', (e) => {
       if (!form.checkValidity()) {
         e.preventDefault();
-        // Move foco para o primeiro campo inválido
+        
         const invalid = form.querySelector(':invalid');
         if (invalid) invalid.focus();
       }
     });
   }
 })();
+
