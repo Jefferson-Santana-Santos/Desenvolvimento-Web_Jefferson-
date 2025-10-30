@@ -42,19 +42,34 @@ Foco automático no primeiro botão do modal ao abrir.
 Scroll do fundo bloqueado enquanto o modal está ativo.
 
 
-<p>
-📂 Estrutura de Arquivos
-Código
-assets/
- ├── css/
- │    ├── 00-variables.css
- │    ├── 01-base.css
- │    ├── 02-layout.css
- │    ├── 03-components.css
- │    └── 04-utils.css
- └── js/
-      ├── menu.js
-      ├── modal.js
-      ├── form-validation.js
-      └── masks.js
-</p>
+
+```
+├── 📁 assets
+│   ├── 📁 css
+│   │   ├──  00-variables.css
+│   │   ├──  01-base.css
+│   │   ├──  02-layout.css
+│   │   ├──  03-components.css
+│   │   ├──  04-utils.css
+│   │   └──  style.css
+│   └── 📁 js
+│       ├── 📄 form-validation.js
+│       ├── 📄 masks.js
+│       ├── 📄 menu.js
+│       └── 📄 modal.js
+├── 📁 img
+│   ├── 🖼️ doacoes.jpg
+│   ├── 🖼️ doacoes.png
+│   ├── 🖼️ equipe2.jpg
+│   ├── 🖼️ equipe2.png
+│   ├── 🖼️ imagem1.png
+│   ├── 🖼️ imagem2.jpg
+│   ├── 🖼️ projeto-educacao.jpg
+│   ├── 🖼️ projeto-educacao.png
+│   ├── 🖼️ projeto-saude.jpg
+│   └── 🖼️ projeto-saude.png
+├──  cadastro.html
+├──  index.html
+└──  projetos.html
+```
+
