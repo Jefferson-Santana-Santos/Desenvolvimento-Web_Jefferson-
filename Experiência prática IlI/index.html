@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>ONG Esperança — Aplicação SPA</title>
+  <meta name="description" content="ONG Esperança: missão, visão, projetos, cadastro e contato em uma aplicação SPA.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/00-variables.css">
+  <link rel="stylesheet" href="assets/css/01-base.css">
+  <link rel="stylesheet" href="assets/css/02-layout.css">
+  <link rel="stylesheet" href="assets/css/03-components.css">
+  <link rel="stylesheet" href="assets/css/04-utils.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ONG Esperança</h1>
+
+      
+      <button class="hamburger-toggle hamburger" aria-controls="mobile-nav" aria-expanded="false" aria-label="Abrir menu">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+
+      <nav id="main-nav" aria-label="Navegação principal">
+      <ul class="nav" role="menubar">
+        <li role="none"><a role="menuitem" href="#home" aria-current="page">Início</a></li>
+        <li role="none">
+          <a role="menuitem" href="#projetos" aria-haspopup="true" aria-expanded="false">Projetos</a>
+          <ul class="submenu" aria-label="Submenu projetos" role="menu">
+            <li role="none"><a role="menuitem" href="#projetos-andamento">Em andamento</a></li>
+            <li role="none"><a role="menuitem" href="#projetos-doacoes">Doações</a></li>
+          </ul>
+        </li>
+        <li role="none"><a role="menuitem" href="#cadastro">Cadastro</a></li>
+      </ul>
+
+      <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <ul class="nav" role="menu">
+          <li role="none"><a role="menuitem" href="#home">Início</a></li>
+          <li role="none"><a role="menuitem" href="#projetos">Projetos</a></li>
+          <li role="none"><a role="menuitem" href="#cadastro">Cadastro</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    </div>
+  </header>
+
+  
+  <main id="conteudo" tabindex="-1"></main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ONG Esperança — Todos os direitos reservados.</p>
+      <nav aria-label="Redes sociais">
+        <ul class="social">
+          <li><a href="#" aria-label="Instagram da ONG">Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn da ONG">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  
+  <script src="assets/js/menu.js" defer></script>
+  <script src="assets/js/modal.js" defer></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
