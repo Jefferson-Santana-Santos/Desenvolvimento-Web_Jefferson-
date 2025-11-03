@@ -111,9 +111,6 @@ cd Desenvolvimento-Web_Jefferson-/tree/main/Experi%C3%AAncia%20pr%C3%A1tica%20Il
 - ARIA em menus, modais e listas
 - Alternativas textuais em imagens
 
-## Licença
-
-MIT — veja o arquivo `LICENSE`.
 
 ## Créditos
 
