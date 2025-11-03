@@ -1,0 +1,50 @@
+:root {
+
+  --primary-900: #0b3d91;
+  --primary-700: #154aa8;
+  --primary-500: #1e66d0;
+  --primary-300: #6ba6ff;
+  --primary: var(--primary-500);
+
+  
+  --secondary-700: #7a2bd6;
+  --secondary-500: #b56bff;
+  --secondary-300: #decaff;
+  --secondary: var(--secondary-500);
+
+ 
+  --neutral-900: #0f1724;
+  --neutral-700: #1f2937;
+  --neutral-500: #6b7280;
+  --neutral-200: #e6e9ee;
+  --neutral-100: #f7f8fb;
+
+ 
+  --fs-xxl: 48px;
+  --fs-xl: 32px;
+  --fs-lg: 24px;
+  --fs-md: 16px;
+  --fs-sm: 14px;
+  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --sp-1: 8px;
+  --sp-2: 16px;
+  --sp-3: 24px;
+  --sp-4: 32px;
+  --sp-5: 48px;
+  --sp-6: 64px;
+
+ 
+  --container-max: 1200px;
+  --gutter: 16px;
+
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1200px;
+  --bp-xxl: 1440px;
+
+  --radius: 8px;
+  --shadow-1: 0 2px 8px rgba(6,18,34,0.06);
+  --focus-color: rgba(30,102,208,0.22);
+}

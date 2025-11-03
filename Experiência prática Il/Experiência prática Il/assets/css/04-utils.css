@@ -1,0 +1,6 @@
+
+.text-center{text-align:center}
+.mt-1{margin-top:var(--sp-1)} .mt-2{margin-top:var(--sp-2)} .mt-3{margin-top:var(--sp-3)}
+.flex{display:flex} .flex-center{display:flex;align-items:center;justify-content:center}
+.gap-1{gap:var(--sp-1)} .gap-2{gap:var(--sp-2)}
+.hidden{display:none}

@@ -1,0 +1,65 @@
+<section aria-labelledby="titulo-lista-projetos" class="container">
+  <h2 id="titulo-lista-projetos">Projetos em andamento</h2>
+
+  <div class="row" style="align-items:stretch;">
+    <article class="card col-12 col-md-6 col-lg-4">
+      <h3>Educação Digital</h3>
+      <img src="img/projeto-educacao.png" alt="Crianças aprendendo tecnologia em sala de aula">
+      <p>Curso de introdução à tecnologia para jovens.</p>
+      <div class="mt-1"><span class="badge">Educação</span></div>
+    </article>
+
+    <article class="card col-12 col-md-6 col-lg-4">
+      <h3>Saúde Comunitária</h3>
+      <img src="img/projeto-saude.png" alt="Profissionais de saúde atendendo moradores">
+      <p>Atendimentos básicos e campanhas de vacinação.</p>
+      <div class="mt-1"><span class="badge">Saúde</span></div>
+    </article>
+
+    <article class="card col-12 col-md-6 col-lg-4">
+      <h3>Campanha Inverno Solidário</h3>
+      <img src="img/doacoes.png" alt="Pessoas doando agasalhos e cobertores">
+      <p>Acompanhe metas e progresso em tempo real na campanha.</p>
+      <div class="mt-1">
+        <button data-modal-open="modal-doar">Doe agora</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="titulo-voluntariado" class="container mt-3">
+  <h2 id="titulo-voluntariado">Voluntariado: como participar</h2>
+  <p>Descubra oportunidades e candidate-se para contribuir.</p>
+  <ul>
+    <li><strong>Educação:</strong> monitoria e reforço escolar.</li>
+    <li><strong>Saúde:</strong> logística e apoio em campanhas.</li>
+  </ul>
+  <p>Para se inscrever, acesse a página de cadastro.</p>
+</section>
+
+<section aria-labelledby="titulo-doacoes" class="container mt-3">
+  <h2 id="titulo-doacoes">Doações e campanhas</h2>
+  <div class="row">
+    <aside class="card col-12 col-md-6" aria-label="Como doar">
+      <h3>Como doar</h3>
+      <p>Doe via PIX, cartão ou boleto. Relatórios de prestação de contas disponíveis.</p>
+    </aside>
+
+    <div class="card col-12 col-md-6">
+      <h3>Transparência</h3>
+      <p>Acompanhe relatórios e metas da campanha.</p>
+    </div>
+  </div>
+</section>
+
+
+<div id="modal-doar" class="modal-backdrop" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-doar-title">
+    <h2 id="modal-doar-title">Doar para Campanha Inverno Solidário</h2>
+    <p>Escolha a forma de doação. Suas doações ajudam famílias em situação de vulnerabilidade.</p>
+    <div style="display:flex;gap:12px;margin-top:16px;">
+      <button class="btn btn-primary" data-modal-close>Doar via PIX</button>
+      <button class="btn" data-modal-close>Fechar</button>
+    </div>
+  </div>
+</div>
